@@ -1,0 +1,41 @@
+html, body, ul,li{
+    margin:0;
+    padding:0;
+}
+
+#gallery{
+    width:860px;
+    
+    margin: 0 auto;
+    text-align:center;
+    
+}
+
+#gallery .photos{
+    position: relative;
+    height:760px ;
+}
+
+#gallery .photos img{
+    width:100%;
+   position: absolute;
+   left:0;
+   opacity: 0;
+   transition: opacity 1s;
+}
+
+#gallery .photos img.show{
+    opacity: 1;
+    
+    
+}
+
+button{
+font-size: 50px;
+border-radius: 30px ;
+background-color: white;
+border-color: 1px solid black;
+margin: 30px;
+font-family: 'Gloria Hallelujah', cursive;
+
+}
